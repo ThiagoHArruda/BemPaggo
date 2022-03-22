@@ -1,0 +1,9 @@
+:root {
+    --boda-cabecalho: ;
+    --cor-cabecalho-fundo: #2d3575;
+    --cor-cabecalho-texto: #d1cfd7;
+    --pesoL-cabecalho-texto: lighter;
+    --pesoB-cabecalho-texto: 900;
+    --espacamento-cabecalho-texto: 1.2em;
+    --font-family: Informa Pro 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

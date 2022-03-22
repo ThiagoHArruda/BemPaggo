@@ -1,0 +1,11 @@
+@import url(_reset.css);
+@import url(_variaveis.css);
+header {
+    background-color: var(--cor-cabecalho-fundo);
+    border-end-end-radius: 50% 70%;
+    border-end-start-radius: 50% 30%;
+}
+
+main {
+    padding-top: 1rem;
+}

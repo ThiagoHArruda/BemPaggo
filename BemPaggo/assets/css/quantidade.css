@@ -1,0 +1,51 @@
+.formulario__quantidade {
+    padding: .5rem 0;
+    padding-left: 1rem;
+}
+
+.formulario__quantidade-texto {
+    font-size: 1rem;
+    padding-bottom: .5rem;
+    font-family: var(--font-family);
+    font-size: 1rem;
+    user-select: none;
+    font-weight: var(--pesoB-cabecalho-texto);
+    line-height: var(--espacamento-cabecalho-texto);
+}
+
+.formulario__quantidade-input {
+    display: flex;
+    align-items: center;
+}
+
+.formulario__quantidade-btnMenos,
+.formulario__quantidade-btnMais {
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: #2e3675;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.formulario__quantidade-btnMenos {
+    background-image: url(../img/minus-solid.svg);
+}
+
+.formulario__quantidade-btnMais {
+    background-image: url(../img/plus-solid.svg);
+}
+
+.formulario_quantidade-input {
+    padding: .3rem;
+    margin: 0 .5rem;
+    width: 2rem;
+    border: 1.5px solid var(--cor-cabecalho-fundo);
+    border-radius: 5px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

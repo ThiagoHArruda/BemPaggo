@@ -1,0 +1,23 @@
+.formulario__enviar {
+    background-color: #dee3e9;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.formulario__espaco-botao {
+    padding-right: 1rem;
+}
+
+.formulario__enviar-botao {
+    padding: .5rem 1.5rem;
+    background-color: #2e3675;
+    font-size: 1rem;
+    font-weight: var(--pesoB-cabecalho-texto);
+    color: white;
+    border-radius: 5px;
+}

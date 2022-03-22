@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BemPaggo</title>
+    <link rel="stylesheet" href="assets/css/base/base.css">
+    <link rel="stylesheet" href="assets/css/cabecalho.css">
+    <link rel="stylesheet" href="assets/css/adesivos.css">
+    <link rel="stylesheet" href="assets/css/quantidade.css">
+    <link rel="stylesheet" href="assets/css/observacoes.css">
+    <link rel="stylesheet" href="assets/css/enviar.css">
+</head>
+
+<body>
+    <header>
+        <div class="cabecalho">
+            <p class="cabecalho__texto">Formulário <br>para compra de
+                <b class="cabecalho__texto-negrito"><br>Pacote de Adesivos</b>
+            </p>
+            <div class="cabecalho__logo"></div>
+        </div>
+    </header>
+    <main>
+        <form action="" class="formulário" method="post">
+            <div class="formulario__adesivos">
+                <p class="formulario__adesivos-texto formulario__texto">Quais Adesivos?</p>
+                <div class="formulario__adesivos-opcoes">
+                    <input type="checkbox" name="React" class="formulario__adesivo-checkbox checkbox" data-tipo="checkbox">
+                    <label for="React" class="formulario__adesivos-label">React</label>
+                </div>
+                <div class="formulario__adesivos-opcoes">
+                    <input type="checkbox" name="Vue" class="formulario__adesivo-checkbox checkbox" data-tipo="checkbox">
+                    <label for="Vue" class="formulario__adesivos-label">Vue</label>
+                </div>
+                <div class="formulario__adesivos-opcoes">
+                    <input type="checkbox" name="Angular" class="formulario__adesivo-checkbox checkbox" data-tipo="checkbox">
+                    <label for="Angular" class="formulario__adesivos-label">Angular</label>
+                </div>
+
+
+
+            </div>
+            <div class="formulario__quantidade">
+                <p class="formulario__quantidade-texto formulario__texto">Quantos Adesivos de cada?</p>
+                <div class="formulario__quantidade-input">
+                    <button class="formulario__quantidade-btnMenos" onclick="menos(0)"></button>
+                    <input type="number" name="Quantidade" class="formulario_quantidade-input" id="quantidade" min="0" placeholder="0" required>
+                    <button class="formulario__quantidade-btnMais" onclick="mais(1000)"></button>
+                </div>
+            </div>
+            <div class="formulario__observacoes">
+                <p class="formulario__observacoes-texto formulario__texto">Observações:</p>
+                <textarea class="formulario__observacoes-input" rows="4" placeholder="Alguma Dúvida, Recado?"></textarea>
+
+            </div>
+            <div class="formulario__enviar">
+                <div class="formulario__espaco-botao">
+                    <button class="formulario__enviar-botao" type="submit">ENVIAR</button>
+                </div>
+            </div>
+        </form>
+        <script src="assets/js/quantidade.js"></script>
+        <script src="assets/js/app.js" type="module"></script>
+    </main>
+
+</body>
+
+</html>
